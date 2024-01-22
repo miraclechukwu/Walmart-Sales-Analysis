@@ -1,4 +1,5 @@
 # Walmart Sales Data Analysis
+![](Walmart_intro.jpg)
 
 ## Introduction
 
@@ -39,14 +40,16 @@ The dataset was sourced from the Kaggle Walmart Sales Forecasting Competition. I
 > 1. Build a database
 > 2. Create table and insert the data.
 > 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set **NOT NULL** for each field, hence null values are filtered out.
+![](create_database.JPG)
 
 2. **Feature Engineering:** This will help use generate some new columns from existing ones.
 
 > 1. Add a new column named `time_of_day` to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
-
+![](FE_time_of_day.JPG)
 > 2. Add a new column named `day_name` that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
-
+![](FE_day_name.JPG)
 > 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
+![](FE_month_name.JPG)
 
 
 ### Analytical Insights
